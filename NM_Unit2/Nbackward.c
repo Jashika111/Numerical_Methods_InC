@@ -16,7 +16,7 @@ int main() {
         scanf("%f", &y[i][0]);
 
     
-    for (j = 1; j < n; j++) {
+    for (j = 1; j < n; j++) { 
         for (i = n-1; i >= j; i--) {
             y[i][j] = y[i][j-1] - y[i-1][j-1];
         }

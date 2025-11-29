@@ -2,7 +2,7 @@
 #include<math.h>
 
 float f(float x){
-    return exp(-x*x);
+    return exp(-x);
 }
 
 double gaussian_integral(double a,double b){

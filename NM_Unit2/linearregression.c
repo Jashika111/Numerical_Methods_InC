@@ -32,8 +32,5 @@ int main() {
     c = (sumY - m * sumX) / n;
 
     printf("\nRegression Line: y = %.4f x + %.4f\n", m, c);
-
-   
-
     return 0;
 }
